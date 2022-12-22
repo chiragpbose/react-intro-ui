@@ -102,6 +102,7 @@ li {
 .comment img {
 	width: 8%;
 	object-fit: contain;
+	margin-right: 5px;
 }
 .six-mins-ago {
 	margin: 0%;
