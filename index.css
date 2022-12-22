@@ -2,7 +2,7 @@
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .page-container {
-	width: 90%;
+	width: 100%;
 	height: 100%;
 	margin: auto;
 	display: flex;
@@ -66,7 +66,7 @@
 	left: 15px;
 }
 .article-container {
-	margin: 0 14px;
+	margin: 0 21px;
 	background-color: white;
 	display: flex;
 	flex-direction: column;
@@ -85,7 +85,6 @@
 	margin: 10px 0;
 }
 .article-text {
-	
 	font-size: smaller;
 	margin: 5px;
 	line-height: 15px;
@@ -93,7 +92,7 @@
 .tiny-footer {
 	color: grey;
 	display: flex;
-	font-size:x-small;
+	font-size: x-small;
 }
 li {
 	list-style: circle;
