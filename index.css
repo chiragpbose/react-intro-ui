@@ -93,6 +93,7 @@
 	color: grey;
 	display: flex;
 	font-size: x-small;
+	margin: 10px ;
 }
 li {
 	list-style: circle;
