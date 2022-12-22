@@ -11,7 +11,7 @@ function CardContainer() {
 		<div className="card-container">
 			<div className="image-container">
 				<img src="./shutterstock_765672517.jpg"></img>
-				<div className="date">27 March</div>
+				<div className="date">27 MAR</div>
 				<div className="photos">PHOTOS</div>
 			</div>
 			<div class="article-container">
