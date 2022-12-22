@@ -14,7 +14,7 @@ function CardContainer() {
 				<div className="date">27 March</div>
 				<div className="photos">PHOTOS</div>
 			</div>
-			<div article-container>
+			<div class="article-container">
 				<h2 className="article-heading">City Lights in New York</h2>
 				<h3 className="article-subheading">The city that never sleeps</h3>
 				<p className="article-text">
@@ -22,6 +22,16 @@ function CardContainer() {
 					plenty of historical monuments, magnificent buildings and countless
 					dazzling skyscapers
 				</p>
+
+				<div className="tiny-footer">
+					<div className="six-mins-ago">
+						<li>6 mins ago</li>
+					</div>
+					<div className="comment">
+						<img src="comment-symbol.png"></img>
+						<div className="comment-text">comments</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
@@ -49,7 +59,6 @@ function Full() {
 		<div className="page-container">
 			<Header />
 			<MainContent />
-		
 		</div>
 	);
 }

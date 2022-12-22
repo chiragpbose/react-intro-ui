@@ -1,3 +1,6 @@
+* {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
 .page-container {
 	width: 90%;
 	height: 100%;
@@ -19,7 +22,6 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	
 }
 .card-container {
 	width: 30%;
@@ -37,11 +39,11 @@
 	align-items: center;
 	position: relative;
 }
-img {
+.image-container img {
 	width: 90%;
 	object-fit: contain;
 }
-.date{
+.date {
 	display: flex;
 	flex-wrap: wrap;
 	background-color: red;
@@ -54,12 +56,60 @@ img {
 	border: none;
 	outline: none;
 }
-.photos{
+.photos {
 	background-color: red;
 	position: absolute;
 	font-size: small;
 	border: none;
 	outline: none;
-	bottom: 10px;
-	left: 20px;
+	bottom: 0px;
+	left: 15px;
+}
+.article-container {
+	margin: 0 14px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.article-heading {
+	text-align: center;
+	font-weight: 200;
+	margin: 5px 0;
+}
+.article-subheading {
+	text-align: center;
+	font-weight: 100;
+	color: red;
+	margin: 10px 0;
+}
+.article-text {
+	
+	font-size: smaller;
+	margin: 5px;
+	line-height: 15px;
+}
+.tiny-footer {
+	color: grey;
+	display: flex;
+	font-size:x-small;
+}
+li {
+	list-style: circle;
+	padding-left: 5%;
+}
+.comment img {
+	width: 8%;
+	object-fit: contain;
+}
+.six-mins-ago {
+	margin: 0%;
+	width: 100%;
+}
+.comment {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
 }
